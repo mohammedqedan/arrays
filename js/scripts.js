@@ -11,5 +11,6 @@ $(document).ready(function() {
     favorite = document.getElementById("favoriteThing4").value;
     items.push(favorite);
     console.log(items);
+     $("#output").text(items);
   });
 });
